@@ -1,7 +1,9 @@
 {
     "AccuracyEffects" : {
         "Enabled" : true,
-        "EnabledDescription" : "Enables statistic effects for arm accuracy."
+        "EnabledDescription" : "Enables statistic effects for arm accuracy.",
+        "CombatHUDTooltipName" : "WEAPON MOUNT",
+        "CombatHUDTooltipNameDescription" : "The name to call the ARM MOUNTED accuracy bonus in the combat tooltips."
     },
     "ArmActuator" : {
         "Enabled" : true,
@@ -39,7 +41,7 @@
         ],
         "MechDefEngine" : true,
         "MechDefCoolingDef" : "emod_kit_shs",
-        "MechDefHeatBlockDef" : "emod_engine_cooling",
+        "MechDefHeatBlockDef" : "Gear_Engine_Heatsinks",
         "MechDefCoreDummy" : "emod_engine_dummy",
         "UpgradeDefSkip" : [
             "Gear_Cockpit_Generic_Small",
@@ -64,7 +66,7 @@
             "Gear_Gyro_HE_Optima",
             "Gear_FCS_Generic_Standard",
             "Gear_FCS_Improved",
-            "Gear_FCS_Energy",
+            "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
             "Gear_FCS_AdvancedTC",
             "Gear_Sensors_Generic_Standard",
             "Gear_AdvZoom",
@@ -137,9 +139,8 @@
         "EnabledDescription" : "Allows each component to define destructive forces in case they explode, also implements proper CASE."
     },
     "CompressFloatieMessages" : {
-        "Enabled" : true,
-        "EnabledDescription" : "Compresses similar floatie messages to a single message with a multiplier. E.g. MEDIUM LASER DESTROYED x 4",
-        "DebugDestroyedFloaties" : false
+        "Enabled" : false,
+        "EnabledDescription" : "Compresses similar floatie messages to a single message with a multiplier. E.g. MEDIUM LASER DESTROYED x 4"
     },
     "CriticalEffects" : {
         "Enabled" : true,
@@ -150,14 +151,9 @@
         "CritFloatieMessage" : "{0} CRIT",
         "DestroyedFloatieMessage" : "{0} DESTROYED"
     },
-    "DebugCycleCombatSounds" : {
-        "Enabled" : false,
-        "EnabledDescription" : "Cycle through SFX sounds when pressing a specific button on the start menu",
-        "SpecificButton" : "Skirmish"
-    },
-    "DebugSaveMechToFile" : {
-        "Enabled" : false,
-        "EnabledDescription" : "Saves mechdefs to 'MechEngineer/Saves' when saving a mech in the mechlab"
+    "DamageIgnore" : {
+        "Enabled" : true,
+        "EnabledDescription" : "Enables ignore_damage flag."
     },
     "DynamicSlots" : {
         "Enabled" : true,
@@ -209,7 +205,8 @@
                     "ac2",
                     "ac",
                     "lbx",
-                    "PPC"
+                    "PPC",
+                    "ams"
                 ]
             },
             {
@@ -236,7 +233,22 @@
                     "ac2",
                     "ppc",
                     "ac",
-                    "lbx"
+                    "lbx",
+                    "ams"
+                ]
+            },
+            {
+                "PrefabIdentifier" : "Laser",
+                "HardpointCandidates" : [
+                    "laser",
+                    "flamer",
+                    "mg",
+                    "MachineGun",
+                    "ac2",
+                    "ppc",
+                    "ac",
+                    "lbx",
+                    "ams"
                 ]
             },
             {
@@ -246,7 +258,8 @@
                     "uac5",
                     "ac",
                     "lbx",
-                    "PPC"
+                    "PPC",
+                    "ams"
                 ]
             },
             {
@@ -256,7 +269,8 @@
                     "lbx10",
                     "ac",
                     "lbx",
-                    "PPC"
+                    "PPC",
+                    "ams"
                 ]
             },
             {
@@ -267,7 +281,8 @@
                     "ac",
                     "lbx",
                     "ac10",
-                    "lbx10"
+                    "lbx10",
+                    "ams"
                 ]
             },
             {
@@ -276,7 +291,8 @@
                     "ac20",
                     "ac",
                     "lbx",
-                    "PPC"
+                    "PPC",
+                    "ams"
                 ]
             },
             {
@@ -287,7 +303,8 @@
                     "uac",
                     "ac",
                     "lbx",
-                    "PPC"
+                    "PPC",
+                    "ams"
                 ]
             },
             {
@@ -300,7 +317,8 @@
                     "ac",
                     "PPC",
                     "lbx",
-                    "laser"
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -311,7 +329,8 @@
                     "ac",
                     "PPC",
                     "lbx",
-                    "laser"
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -322,7 +341,8 @@
                     "gauss",
                     "ac",
                     "lbx",
-                    "PPC"
+                    "PPC",
+                    "ams"
                 ]
             },
             {
@@ -335,7 +355,8 @@
                     "srm20",
                     "machinegun",
                     "mg",
-                    "flamer"
+                    "flamer",
+                    "ams"
                 ]
             },
             {
@@ -348,7 +369,8 @@
                     "lrm5",
                     "machinegun",
                     "mg",
-                    "flamer"
+                    "flamer",
+                    "ams"
                 ]
             },
             {
@@ -361,7 +383,8 @@
                     "lrm5",
                     "machinegun",
                     "mg",
-                    "flamer"
+                    "flamer",
+                    "ams"
                 ]
             },
             {
@@ -375,7 +398,8 @@
                     "lrm10",
                     "machinegun",
                     "mg",
-                    "flamer"
+                    "flamer",
+                    "ams"
                 ]
             },
             {
@@ -388,7 +412,8 @@
                     "lrm5",
                     "machinegun",
                     "mg",
-                    "flamer"
+                    "flamer",
+                    "ams"
                 ]
             },
             {
@@ -397,7 +422,8 @@
                     "machinegun",
                     "mg",
                     "flamer",
-                    "laser"
+                    "laser",
+                    "ams"
                 ]
             },
             {
@@ -408,7 +434,8 @@
                     "srm6",
                     "machinegun",
                     "mg",
-                    "flamer"
+                    "flamer",
+                    "ams"
                 ]
             },
             {
@@ -419,7 +446,8 @@
                     "srm2",
                     "machinegun",
                     "mg",
-                    "flamer"
+                    "flamer",
+                    "ams"
                 ]
             },
             {
@@ -430,7 +458,8 @@
                     "srm2",
                     "machinegun",
                     "mg",
-                    "flamer"
+                    "flamer",
+                    "ams"
                 ]
             }
         ]
@@ -502,5 +531,48 @@
     "TurretMechComponents" : {
         "Enabled" : true,
         "EnabledDescription" : "Turrets can now use components and benefit from their status effects."
+    },
+    "TagManager" : {
+        "Enabled" : false,
+        "EnabledDescription" : "Manipulates MechDef and ComponentDef Tags",
+        "LostechStockWeaponVariantFix" : true,
+        "LostechStockWeaponVariantDescription" : "Fixes lostech variant weapon tagging by checking if id ends with -STOCK.",
+        "SkirmishWhitelistTags" : [
+            "component_type_stock"
+        ],
+        "SkirmishWhitelistTagsDescription" : "Components with these tags will appear in the skirmish mechlab, blacklisted tagged items never appear.",
+        "WhitelistComponentTags" : [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_lostech"
+        ],
+        "WhitelistComponentTagsDescription" : "Whitelists components with specified tags.",
+        "BlacklistComponentTags" : [
+            
+        ],
+        "BlacklistComponentTagsDescription" : "Blacklists components with specified tags, has precedence over whitelisting.",
+        "WhitelistMechTags" : [
+            "unit_release"
+        ],
+        "WhitelistMechTagsDescription" : "Similar to WhitelistComponentTags but with MechTags",
+        "BlacklistMechTags" : [
+            
+        ],
+        "BlacklistMechTagsDescription" : "Similar to BlacklistComponentTags but with MechTags"
+    },
+    "DebugCycleCombatSounds" : {
+        "Enabled" : false,
+        "EnabledDescription" : "Cycle through SFX sounds when pressing a specific button on the start menu",
+        "SpecificButton" : "Skirmish"
+    },
+    "DebugSaveMechToFile" : {
+        "Enabled" : false,
+        "EnabledDescription" : "Saves mechdefs to 'MechEngineer/Saves' when saving a mech in the mechlab"
+    },
+    "DebugScreenshotMechs" : {
+        "Enabled" : false,
+        "EnabledDescription" : "Edit a mech then cancel, it then will go through all mechs and make screenshots for them. To improve loading times use the TagManager to blacklist all components so the MechLab doesn't have to load them.",
+        "ScreenshotDirectoryPath" : "screenshots",
+        "ScreenshotDirectoryPathDescription" : "Create the directory manually first, otherwise it won't save any of the images."
     }
 }

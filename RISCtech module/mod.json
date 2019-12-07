@@ -7,13 +7,9 @@
     "Website": "",
     "Contact": "fakeemail@fakeemail.com",
     "DependsOn": [
-        "RogueModuleTech",
-        "CustomComponents",
-        "MechEngineer"
+        "RogueTech Core"
     ],
     "ConflictsWith": [
-        "RogueTech Enhanced",
-        "RogueTech Enhanced Clans"
     ],
     "Manifest": [
         {
@@ -26,12 +22,20 @@
         },
 		{
             "Type": "VehicleChassisDef",
-            "Path": "vehicleChassis"
+            "Path": "vehiclechassis"
         },
         {
             "Type": "VehicleDef",
             "Path": "vehicle"
         },
-		{ "Type": "ItemCollectionDef", "Path": "Starter", "ShouldAppendText": true }
+		{ "Type": "ItemCollectionDef", "Path": "Starter", "ShouldAppendText": true },
+		{
+            "Type": "PilotDef",
+            "Path": "RISCPilots"
+        },
+		{
+			"Type": "LanceDef",
+			"Path": "lances"
+		},
     ]
 }

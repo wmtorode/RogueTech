@@ -14,9 +14,9 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-				"Beaten_TrialByFire",
-				"Beaten_CoupeHard"
-				],
+                    "Beaten_TrialByFire",
+                    "Beaten_CoupeHard"
+                ],
                 "tagSetSourceFile": ""
             },
             "ExclusionTags": {
@@ -27,46 +27,30 @@
             },
             "RequirementComparisons": []
         },
-		{
+        {
             "Scope": "Company",
-            "Requirements": null,
-            "AddedTags": {
+            "RequirementTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "RemovedTags": {
+            "ExclusionTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "Stats": [
+            "RequirementComparisons": [
                 {
-                    "obj": "Day",
+                    "obj": "MissionsComplete",
                     "op": "GreaterThan",
-                    "val": 400,
-                    "valueConstant": "400"
+                    "val": 55,
+                    "valueConstant": "55"
                 }
-            ],
-            "Actions": [],
-            "ForceEvents": [],
-            "TemporaryResult": false,
-            "ResultDuration": 0
+            ]
         }
     ],
     "OnContractSuccessResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [
                     "Beaten_MeatGrinder"
@@ -75,9 +59,9 @@
             },
             "RemovedTags": {
                 "items": [
-				"Beaten_TrialByFire",
-				"Beaten_Frontlines"
-				],
+                    "Beaten_TrialByFire",
+                    "Beaten_Frontlines"
+                ],
                 "tagSetSourceFile": ""
             },
             "Stats": [],
@@ -87,30 +71,19 @@
             "ResultDuration": 160
         }
     ],
-	"OnContractFailureResults": [
-	{
+    "OnContractFailureResults": [
+        {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
             "RemovedTags": {
                 "items": [
-				 "Beaten_CoupeHard",
-				 "Beaten_TrialByFire"
-				],
+                    "Beaten_CoupeHard",
+                    "Beaten_TrialByFire"
+                ],
                 "tagSetSourceFile": ""
             },
             "Stats": [],
@@ -119,7 +92,7 @@
             "TemporaryResult": null,
             "ResultDuration": null
         }
-	],
+    ],
     "contractType": "SimpleBattle",
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,

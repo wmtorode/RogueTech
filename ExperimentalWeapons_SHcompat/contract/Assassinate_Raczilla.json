@@ -37,46 +37,42 @@
         },
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [
-                        "howlofthebeast_done"
-                    ],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
-            "AddedTags": {
+            "RequirementTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "RemovedTags": {
+            "ExclusionTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "Stats": []
+            "RequirementComparisons": [
+                {
+                    "obj": "MissionsComplete",
+                    "op": "GreaterThan",
+                    "val": 60,
+                    "valueConstant": "60"
+                }
+            ]
+        },
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
+                "items": [
+                    "howlofthebeast_done"
+                ],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": []
         }
     ],
     "OnContractSuccessResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [
                     "howlofthebeast_done"

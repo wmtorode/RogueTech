@@ -3,6 +3,11 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
+    },
+    "AssemblyVariant": {
+      "PrefabID": "Archangel",
+      "Exclude": false,
+      "Include": true
     }
   },
   "FixedEquipment": [
@@ -28,7 +33,7 @@
     },
 	{
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Gyro_Compact",
+      "ComponentDefID": "Gear_Gyro_Compact_Omni",
       "SimGameUID": null,
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

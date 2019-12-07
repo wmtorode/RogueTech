@@ -132,7 +132,7 @@
 		{
           "WeaponMount": "Energy",
           "Omni": false
-        }
+        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -165,6 +165,20 @@
       "MaxArmor": 50,
       "MaxRearArmor": -1,
       "InternalStructure": 25
+    }
+  ],
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_180",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true
     }
   ],
   "LOSSourcePositions": [

@@ -2,7 +2,7 @@
   "Version": 1,
   "Description": {
     "Id": "vehicledef_Cascatelle_Artillery",
-    "Name": "Cascatelle",
+    "Name": "__/Artillery_Units.vehicledef_Cascatelle_Artillery.Name/__",
     "Details": "",
     "Icon": "",
     "Cost": 564,
@@ -149,6 +149,13 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "emod_engine_145",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Tank_Coolant_System",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

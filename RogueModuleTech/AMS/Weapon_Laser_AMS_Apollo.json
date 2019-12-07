@@ -48,6 +48,21 @@
             "ItemID": "Weapon_Laser_AMS_Integrated"
         }
     },
+	"Auras": [
+    {
+      "Id": "AMS",
+      "Name": "AMS",
+      "ReticleColor": "#800000",
+      "Range": 10,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": false,
+      "HideOnNotSelected": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": true
+    }
+  ],
     "Category": "Energy",
     "Type": "Laser",
     "WeaponSubType": "SmallLaser",
@@ -69,6 +84,9 @@
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
+	"APArmorShardsMod": 0,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.5,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
@@ -89,7 +107,7 @@
         "Model": "Clean-Sweep",
         "UIName": "Integrated Advanced Laser AMS",
         "Id": "Weapon_Laser_AMS_Apollo",
-        "Name": "Laser Anti Missile System",
+        "Name": "LAMS",
         "Details": "This unique Armor has an Integrated LAMS Prototype, capable to defend its owner and allies from the majority of Missile Attacks made during Battle. \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
@@ -119,6 +137,8 @@
             "ShotsWhenFired": 20,
             "AMSHitChance": 0.4,
             "FlatJammingChance": 0.5,
+            "GunneryJammingMult": 0.075,
+            "GunneryJammingBase": 5,
             "HeatGenerated": 10,
             "MaxRange": 180.0
         },

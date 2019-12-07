@@ -41,7 +41,10 @@
             "SelfEmployed_Yang", 
             "SecuritySolutionsInc", 
             "PaladinProtectionLLC", 
-            "HouseKhulan"
+            "HouseKhulan",
+            "BlackWidowCompany",
+            "BaumannGroup",
+            "BountyHunterAssociates"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -178,7 +181,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
@@ -453,7 +456,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_FCS_Missile_Damage", 
+            "ComponentDefID": "Gear_FCS_ArtemisIII", 
             "SimGameUID": null, 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

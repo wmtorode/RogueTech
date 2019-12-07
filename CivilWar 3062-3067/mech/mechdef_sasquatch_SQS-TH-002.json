@@ -8,6 +8,7 @@
             "unit_role_brawler", 
             "unit_advanced", 
             "unit_bracket_high", 
+            "unit_solaris",
             "WordOfBlake", 
             "locals", 
             "auriganmercenaries", 
@@ -172,7 +173,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

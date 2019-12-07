@@ -14,8 +14,8 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-				"Beaten_EnGardeHard"
-				],
+                    "Beaten_EnGardeHard"
+                ],
                 "tagSetSourceFile": ""
             },
             "ExclusionTags": {
@@ -26,46 +26,30 @@
             },
             "RequirementComparisons": []
         },
-		{
+        {
             "Scope": "Company",
-            "Requirements": null,
-            "AddedTags": {
+            "RequirementTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "RemovedTags": {
+            "ExclusionTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "Stats": [
+            "RequirementComparisons": [
                 {
-                    "obj": "Day",
+                    "obj": "MissionsComplete",
                     "op": "GreaterThan",
-                    "val": 200,
-                    "valueConstant": "200"
+                    "val": 25,
+                    "valueConstant": "25"
                 }
-            ],
-            "Actions": [],
-            "ForceEvents": [],
-            "TemporaryResult": false,
-            "ResultDuration": 0
+            ]
         }
     ],
     "OnContractSuccessResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [
                     "Beaten_Frontlines"
@@ -83,29 +67,18 @@
             "ResultDuration": null
         }
     ],
-	"OnContractFailureResults": [
-	{
+    "OnContractFailureResults": [
+        {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
             "RemovedTags": {
                 "items": [
-				 "Beaten_EnGardeHard"
-				],
+                    "Beaten_EnGardeHard"
+                ],
                 "tagSetSourceFile": ""
             },
             "Stats": [],
@@ -114,7 +87,7 @@
             "TemporaryResult": null,
             "ResultDuration": null
         }
-	],
+    ],
     "contractType": "SimpleBattle",
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,
@@ -143,7 +116,7 @@
             "title": "Destroy Enemy Units",
             "description": "",
             "isPrimary": true,
-             "OnSuccessResults": [
+            "OnSuccessResults": [
                 {
                     "Scope": "Company",
                     "Requirements": {

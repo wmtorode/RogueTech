@@ -43,6 +43,25 @@
 				"tagSetSourceFile": ""
 			},
 			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": [
+				{
+					"obj": "MissionsComplete",
+					"op": "GreaterThan",
+					"val": 25,
+					"valueConstant": "25"
+				}
+			]
+		},
+		{
+			"Scope": "Company",
+			"RequirementTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
 				"items": [
 					"itsatrap_done"
 				],
@@ -54,18 +73,7 @@
 	"OnContractSuccessResults": [
 		{
 			"Scope": "Company",
-			"Requirements": {
-				"Scope": "Company",
-				"RequirementTags": {
-					"items": [],
-					"tagSetSourceFile": ""
-				},
-				"ExclusionTags": {
-					"items": [],
-					"tagSetSourceFile": ""
-				},
-				"RequirementComparisons": []
-			},
+			"Requirements": {},
 			"AddedTags": {
 				"items": [
 					"itsatrap_done"
@@ -79,35 +87,24 @@
 			"Stats": []
 		},
 		{
-            "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
-            "AddedTags": {
-                "items": [
-                    "Superheav_Superheavy_Scientists_Cooldown"
-                ],
-                "tagSetSourceFile": ""
-            },
-            "RemovedTags": {
-                "items": [],
-                "tagSetSourceFile": ""
-            },
-            "Stats": [],
-            "Actions": null,
-            "ForceEvents": null,
-            "TemporaryResult": true,
-            "ResultDuration": 150
-        }
+			"Scope": "Company",
+			"Requirements": {},
+			"AddedTags": {
+				"items": [
+					"Superheav_Superheavy_Scientists_Cooldown"
+				],
+				"tagSetSourceFile": ""
+			},
+			"RemovedTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"Stats": [],
+			"Actions": null,
+			"ForceEvents": null,
+			"TemporaryResult": true,
+			"ResultDuration": 150
+		}
 	],
 	"OnContractFailureResults": [],
 	"contractType": "DestroyBase",

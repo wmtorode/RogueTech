@@ -36,6 +36,25 @@
                 "tagSetSourceFile": ""
             },
             "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": [
+                {
+                    "obj": "MissionsComplete",
+                    "op": "GreaterThan",
+                    "val": 40,
+                    "valueConstant": "40"
+                }
+            ]
+        },
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
                 "items": [
                     "Superheavy_WhiteWhale_Cooldown"
                 ],
@@ -47,18 +66,7 @@
     "OnContractSuccessResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [
                     "Superheavy_WhiteWhale_Cooldown"
@@ -79,18 +87,7 @@
     "OnContractFailureResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [],
                 "tagSetSourceFile": ""

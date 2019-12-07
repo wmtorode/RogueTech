@@ -13,6 +13,7 @@
             "unit_littlefriend", 
             "unit_stealth", 
             "unit_predator", 
+			"unit_risc",
             "INVALID_UNSET", 
             "jarnfolk", 
             "delphi", 
@@ -220,7 +221,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

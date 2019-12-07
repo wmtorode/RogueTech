@@ -1,6 +1,6 @@
 {
   "Custom": {
-  "ArmActuatorSupport": {
+    "ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     },
@@ -74,20 +74,20 @@
     }
   ],
   "Description": {
-    "Cost": 5177910,
+    "Cost": 5799840,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Firestarter",
+    "UIName": "__/Base_3061.chassisdef_firestarter_O-PRIME.UIName/__",
     "Id": "chassisdef_firestarter_O-PRIME",
-    "Name": "Firestarter",
-    "Details": "Ultimately overcoming a somewhat politically troubled birth, the OmniMech Firestarter has proven to be an highly effective and flexible design, with the Combine using it to replace other aging medium-weight workhorses such as the Phoenix Hawk <b><color=#53ff1a>Restricted Actuators- Omni</color></b>",
+    "Name": "__/Base_3061.chassisdef_firestarter_O-PRIME.Name/__",
+    "Details": "__/Base_3061.chassisdef_firestarter_O-PRIME.Details/__",
     "Icon": "uixTxrIcon_firestarterO"
   },
-  "MovementCapDefID": "movedef_vindicator_VND-1R",
-  "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_firestarter",
+  "VariantName": "FS9-O-PRIME",
+  "StockRole": "__/Base_3061.chassisdef_firestarter_O-PRIME.StockRole/__",
+  "YangsThoughts": "__/Base_3061.chassisdef_firestarter_O-PRIME.YangsThoughts/__",
   "PrefabIdentifier": "chrPrfMech_firestarterBase-001",
   "PrefabBase": "firestarter",
   "Tonnage": 45,
@@ -113,6 +113,7 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": true,
+  "EngageRangeModifier": 0,
   "MeleeDamage": 23,
   "MeleeInstability": 12,
   "MeleeToHitModifier": 0,
@@ -120,12 +121,66 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 45,
   "DFAInstability": 23,
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.13-1.13-1.13",
+      "OmniMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "MechPartMax": 0,
+  "MovementCapDefID": "movedef_vindicator_VND-1R",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_firestarter",
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "MechPartCount": 0,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -161,7 +216,7 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
-       {
+        {
           "WeaponMount": "Ballistic",
           "Omni": true
         },
@@ -205,7 +260,7 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
-       {
+        {
           "WeaponMount": "Ballistic",
           "Omni": true
         },
@@ -256,9 +311,7 @@
     },
     {
       "Location": "LeftLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 110,
@@ -267,68 +320,12 @@
     },
     {
       "Location": "RightLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 110,
       "MaxRearArmor": -1,
       "InternalStructure": 55
     }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0,
-      "y": 14,
-      "z": 0
-    },
-    {
-      "x": 3.5,
-      "y": 13,
-      "z": 0
-    },
-    {
-      "x": -3.5,
-      "y": 13,
-      "z": 0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 14,
-      "z": 0
-    },
-    {
-      "x": 3.5,
-      "y": 13,
-      "z": 0
-    },
-    {
-      "x": -3.5,
-      "y": 13,
-      "z": 0
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 5,
-      "z": 0
-    }
-  ],
-  "VariantName": "FS9-O",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-1.1-1.1-1.1",
-      "OmniMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Fire Support & Brawler",
-  "YangsThoughts": "Initially the direct result of a dubious goodwill gesture between enemy Houses during the Clan Invasion, the Firestarter OmniMech has proven to be a flexible and highly effective medium trooper design. <b><color=#53ff1a>Restricted Actuators- Omni</color></b>"
+  ]
 }

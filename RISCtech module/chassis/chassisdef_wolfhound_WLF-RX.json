@@ -11,7 +11,7 @@
       "DamageLevel": "Functional",
       "GUID": null,
       "HardpointSlot": -1,
-      "IsFixed": true,
+      "IsFixed": false,
       "MountedLocation": "LeftTorso",
       "SimGameUID": "",
       "hasPrefabName": false,
@@ -28,7 +28,7 @@
     "Id": "chassisdef_wolfhound_WLF-RX",
     "Name": "Wolfhound",
     "Details": "This Wolfhound variant got a large refit with Clan Grade Structure and Armor alongside RISC Tech Equipment and Production. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
-    "Icon": "wolfhound2"
+    "Icon": "uixTxrIcon_wolfhound"
   },
   "MovementCapDefID": "movedef_wolfhound_WLF-1X",
   "PathingCapDefID": "pathingdef_light",
@@ -242,11 +242,11 @@
   "VariantName": "WLF-RX",
   "ChassisTags": {
     "items": [
-      "RISCBattleMech"
+      "RISCBattleMech",
       "Wolfhound"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Brawler",
-  "YangsThoughts": "This Wolfhound variant got a large refit with Clan Grade Structure and Armor alongside RISC Tech Equipment and Production. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
+  "YangsThoughts": "This Wolfhound variant got a large refit with Clan Grade Structure and Armor alongside RISC Tech Equipment and Production. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>"
 }

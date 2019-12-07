@@ -4,7 +4,7 @@ masterunitlist.info
 Note that factions can appear in more than one group! They appear in any grouping that applies.
 
 When you add a new unit look at what groups have it on the website. 
-Use the 3050-3060 time bracket when possible. Else use nearest to those dates.
+Use the era of indtroduction or the last avalialbe one if it's extinct.
 Then paste in the appropriate set(s) of tags, and prune duplicates.
 
 If a unit will be available to fewer than 3 factions give it to an additional nearby faction.
@@ -26,8 +26,8 @@ Liao = Capellan Confederation
 
 "{CUR_TEAM.faction}"
 
-**  Great Houses and Comstar - If you're not sure who to give a piece of fancy IS tech to these are the rich folks **
-
+**  Great Houses and Comstar/WoB - If you're not sure who to give a piece of fancy IS tech to these are the rich folks **
+"WordOfBlake",
 "comstar",
 "davion",
 "kurita",
@@ -37,19 +37,19 @@ Liao = Capellan Confederation
 
 *** MSU Category: "Inner Sphere General" ***
 
-
+"WordOfBlake",
 "comstar",
 "davion",
 "ives",
 "kurita",
 "liao",
 "marik",
-
 "rasalhague",
 "steiner",
-
+"HouseNakano (Kurita)
 "betrayers", (Kurita),
-"EmeraldDawn", (Davion),
+Sian Triumphant (Liao)
+"EmeraldDawn", (Liao),
 "DuchyOfAndurien", (Marik)
 "BlackCalderaDefense", (Marik)
 "BlackCalderaDefense_Hidden", (Marik)
@@ -76,11 +76,10 @@ Liao = Capellan Confederation
 "magistracycentrella",
 "oberon",
 "outworld",
-"SelfEmployed",
 "taurianconcordat",
 "tortuga",
 "valkyrate",
-"nautilus",
+"FlakJackals" (Pirates)
 
 ** MSU Category: "Mercenaries" (With RT specific merc factions) ** 
 
@@ -95,31 +94,33 @@ Liao = Capellan Confederation
 "HostileMercenaries",
 "KellHounds",
 "SteelBeast",
-"FlakJackals",
 "locals",
 "LocalsBrockwayRefugees",
 "SecuritySolutionsInc",
-"SelfEmployed",
-
+"BlackWidowCompany",
+"BaumannGroup",
+"BountyHunterAssociates"
 
 ** Factions that use RT Pirate-Tech **
 
-"auriganpirates",
-"axumite",
-"chainelane",
-"circinus",
-"delphi",
-"elysia",
-"illyrian",
-"jarnfolk",
-"lothian",
-"marian",
-"nautilus",
-"oberon",
-"outworld",
-"SelfEmployed",
-"tortuga",
-"valkyrate",
+            "locals", 
+            "jarnfolk", 
+            "delphi", 
+            "hanse", 
+            "castile", 
+            "chainelane", 
+            "tortuga", 
+            "axumite", 
+            "auriganpirates", 
+            "marian", 
+            "elysia", 
+            "oberon", 
+            "valkyrate", 
+            "circinus", 
+            "illyrian", 
+            "lothian", 
+            "FlakJackals", 
+            "LocalsBrockwayRefugees"
 
 ** All CLANS **
 
@@ -167,31 +168,38 @@ Flashpoint factions:
 
 "MagistracyCentrella",
         "MajestyMetals",
-		"Nautilus",
 		"Betrayers",
 		"FlakJackals",
 		"LocalsBrockwayRefugees",
-		"SelfEmployed",
 		"MasonsMarauders",
 		"SteelBeast",
 		"KellHounds",
 		"RazorbackMercs",
 		"HostileMercenaries",
 
-		"EmeraldDawn", check
-		"SianTriumphant", ???
-		"ProfHorvat", ???
+		"EmeraldDawn", Liao
+		"SianTriumphant", Liao
+		"ProfHorvat", Employer for the Urbanmech tournament. Has fixed mech spawns in the fp, probably not needed (Pirate if included)
 		"RedHareRegiment", ???
-		"EdCorbu",
+		"EdCorbu", emploer for an FP not sure if he is used to spawn stuff. Include on Merc units for now
 		"DuchyOfAndurien", check
 		"BlackCalderaDefense", check
-		"HouseNakano",
-		"GrayDeathLegion", Check
+		"HouseNakano", Kurita
+		"GrayDeathLegion", Has fixed mech spawns in the fp, probably not needed (Merc if included)
 		"BlackCalderaDefense_Hidden", check
-		"SelfEmployed_Yang",
 		"SecuritySolutionsInc", check
 		"PaladinProtectionLLC", check
 		"HouseKhulan",
+
+Employers: (shouldn't need to be used at all):
+     "SelfEmployed",
+	 "SelfEmployed_Yang",
+	 "SelfEmployed_Sumire,
+	 "SelfEmployed_Farah",
+
+Fixed Spawns (shouldn't need using):
+	 "Nautilus",
+     "Moderbjorn",
 
 Weird fallback factions:
 
@@ -306,3 +314,6 @@ Everyone:
         "SecuritySolutionsInc",
         "PaladinProtectionLLC",
         "HouseKhulan",
+		"BlackWidowCompany",
+"BaumannGroup",
+"BountyHunterAssociates"

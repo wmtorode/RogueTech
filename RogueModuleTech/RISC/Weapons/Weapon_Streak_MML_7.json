@@ -11,7 +11,13 @@
         },
         "InventorySorter": {
             "SortKey": "03025"
-        }
+        },
+		"Flags": {
+      "flags": [
+        "not_broken",
+		"not_destroyed"
+      ]
+    }
     },
     "Category": "Missile",
     "Type": "LRM",
@@ -34,8 +40,11 @@
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
+	"APArmorShardsMod": 0.35,
+  "APMaxArmorThickness": 50,
+  "APCriticalChanceMultiplier": 0.038,
     "AOECapable": false,
-    "IndirectFireCapable": true,
+    "IndirectFireCapable": false,
 	"Streak": true,
 	"HitGenerator" : "Streak",
     "RefireModifier": 0,

@@ -2,12 +2,9 @@
     "Name": "Protomechs",
     "Enabled": true,
     "ConflictsWith": [
-        "RogueTech Enhanced",
-        "RogueTech Enhanced Clans"
     ],
 	"DependsOn": [
-		"CustomComponents",
-        "MechEngineer"
+		"RogueTech Core"
     ],
     "Version": "0.1.0",
     "Description": "Protomechs for Roguetech",
@@ -15,37 +12,7 @@
     "Website": "",
     "Contact": "Discord: Katrina Kerensky#5673",
     "Manifest": [
-        {
-            "Type": "ChassisDef",
-            "Path": "chassis"
-        },
-        {
-            "Type": "MechDef",
-            "Path": "mech"
-        },
-		{
-			"Type": "WeaponDef",
-			"Path": "weapons"
-		},
-		{
-			"Type": "HeatSinkDef",
-			"Path": "PMengine"
-		},
-		{
-			"Type": "UpgradeDef",
-			"Path": "PMinternals"
-		},
-		{
-			"Type": "HeatSinkDef",
-			"Path": "heatsink"
-		},
-		{
-            "Type": "Sprite",
-            "Path": "portrait"
-        },
-		{
-			"Type": "JumpJetDef",
-			"Path": "PMjumpjet"
-        }
+        { "Type": "ChassisDef", "Path": "chassis"},
+        { "Type": "MechDef", "Path": "mech"}		
 	]
 }

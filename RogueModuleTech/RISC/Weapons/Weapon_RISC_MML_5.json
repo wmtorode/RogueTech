@@ -7,12 +7,24 @@
             "Bonuses": [
                 "MML",
 				"IndirectMML",
-				"WeaponJAMFlat: 15%"
+				"WeaponJAMFlat: 15%",
+				"DakkaBoom: 6"
             ]
         },
         "InventorySorter": {
             "SortKey": "03023"
-        }
+        },
+		"ComponentExplosion": {
+      "ExplosionDamagePerAmmo": 6,
+      "StabilityDamagePerAmmo": 2,
+	  "HeatDamagePerAmmo": 2
+    },
+		"Flags": {
+      "flags": [
+        "not_broken",
+		"not_destroyed"
+      ]
+    }
     },
     "Category": "Missile",
     "Type": "LRM",
@@ -26,7 +38,7 @@
     ],
     "AmmoCategory": "LRM",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 13,
+    "HeatGenerated": 8,
     "Damage": 4,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -35,6 +47,9 @@
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
+	"APArmorShardsMod": 0.35,
+  "APMaxArmorThickness": 40,
+  "APCriticalChanceMultiplier": 0.03,
     "AOECapable": false,
     "IndirectFireCapable": true,
     "RefireModifier": 0,

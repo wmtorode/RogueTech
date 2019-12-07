@@ -4,18 +4,18 @@
 			{ "CategoryID": "w/e/p/plasma" }
 		],
         "ComponentExplosion": {
-            "ExplosionDamage": 10,
-            "HeatDamage": 20,
-            "StabilityDamage": 30
-        },
+      "ExplosionDamagePerAmmo": 35,
+      "StabilityDamagePerAmmo": 10,
+	  "HeatDamagePerAmmo": 70
+    },
         "BonusDescriptions": {
             "Bonuses": [
-                "OHDamage: X2.3",
+                "OHDamage: 50%",
                 "VariableDmg: 5",
                 "PLASMADEBUFF: 15%",
                 "DmgFallOff: 15%",
                 "WpnRecoil: 2",
-                "WeaponBoom: 10",
+                "WeaponBoom: 35",
                 "IsPlasma"
             ]
         },
@@ -24,8 +24,8 @@
         }
     },
     "Category": "Energy",
-    "Type": "PPC",
-    "WeaponSubType": "PPCER",
+    "Type": "Flamer",
+    "WeaponSubType": "Flamer",
     "MinRange": 0,
     "MaxRange": 460,
     "RangeSplit": [
@@ -37,13 +37,21 @@
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 30,
     "Damage": 35,
-    "OverheatedDamageMultiplier": 2.3,
+    "OverheatedDamageMultiplier": 1.5,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
     "DamageVariance": 5,
-    "HeatDamage": 20,
+    "HeatDamage": 35,
+	"DistantVariance": 0.15,
+  "DistantVarianceReversed": false,
+  "isHeatVariation": true,
+  "isStabilityVariation": true,
+  "isDamageVariation": true,
     "AccuracyModifier": 0,
-    "CriticalChanceMultiplier": 1,
+    "CriticalChanceMultiplier": 0.1,
+	"APArmorShardsMod": 0.1,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.01,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 2,
@@ -146,8 +154,8 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "WR-variance_by_distance-15",
-            "range_standard"
+            "range_standard",
+			"OmniRestriction.{location}"
         ],
         "tagSetSourceFile": ""
     }

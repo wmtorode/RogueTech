@@ -14,8 +14,8 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-				"Beaten_CoupeSolo"
-				],
+                    "Beaten_CoupeSolo"
+                ],
                 "tagSetSourceFile": ""
             },
             "ExclusionTags": {
@@ -26,46 +26,30 @@
             },
             "RequirementComparisons": []
         },
-		{
+        {
             "Scope": "Company",
-            "Requirements": null,
-            "AddedTags": {
+            "RequirementTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "RemovedTags": {
+            "ExclusionTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "Stats": [
+            "RequirementComparisons": [
                 {
-                    "obj": "Day",
+                    "obj": "MissionsComplete",
                     "op": "GreaterThan",
-                    "val": 350,
-                    "valueConstant": "350"
+                    "val": 45,
+                    "valueConstant": "45"
                 }
-            ],
-            "Actions": [],
-            "ForceEvents": [],
-            "TemporaryResult": false,
-            "ResultDuration": 0
+            ]
         }
     ],
     "OnContractSuccessResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [
                     "Beaten_Coupe"
@@ -83,29 +67,18 @@
             "ResultDuration": 160
         }
     ],
-	"OnContractFailureResults": [
-	{
+    "OnContractFailureResults": [
+        {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
             "RemovedTags": {
                 "items": [
-				 "Beaten_CoupeSolo"
-				],
+                    "Beaten_CoupeSolo"
+                ],
                 "tagSetSourceFile": ""
             },
             "Stats": [],
@@ -114,7 +87,7 @@
             "TemporaryResult": null,
             "ResultDuration": null
         }
-	],
+    ],
     "contractType": "SimpleBattle",
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,

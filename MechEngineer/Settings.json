@@ -1,6 +1,9 @@
 {
   "AccuracyEffects": {
-    "Enabled": true
+    "Enabled": true,
+	        "EnabledDescription" : "Enables statistic effects for arm accuracy.",
+	        "CombatHUDTooltipName" : "WEAPON MOUNT",
+        "CombatHUDTooltipNameDescription" : "The name to call the ARM MOUNTED accuracy bonus in the combat tooltips."
   },
   "ArmActuator": {
     "ForceFullDefaultActuators": true,
@@ -28,7 +31,7 @@
     ],
     "MechDefEngine": true,
     "MechDefCoolingDef": "emod_kit_shs",
-    "MechDefHeatBlockDef": "emod_engine_cooling",
+    "MechDefHeatBlockDef": "Gear_Engine_Heatsinks",
     "MechDefCoreDummy": "emod_engine_dummy",
     "UpgradeDefSkip": [
       "Gear_Cockpit_Generic_Small",
@@ -53,7 +56,7 @@
       "Gear_Gyro_HE_Optima",
       "Gear_FCS_Generic_Standard",
       "Gear_FCS_Improved",
-      "Gear_FCS_Energy",
+      "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
       "Gear_FCS_AdvancedTC",
       "Gear_Sensors_Generic_Standard",
       "Gear_AdvZoom",
@@ -113,19 +116,24 @@
   "BattleTechLoadFix": {
     "Enabled": true
   },
-  "ComponentExplosions": {
-    "Enabled": true
-  },
-  "CompressFloatieMessages": {
-    "DebugDestroyedFloaties": false,
-    "Enabled": true
-  },
-  "CriticalEffects": {
-    "DescriptionTemplate":
-      "Critical Effects:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n{{originalDescription}}",
-    "DescriptionUseName": false,
-    "Enabled": true
-  },
+  "ComponentExplosions" : {
+        "Enabled" : true,
+        "EnabledDescription" : "Allows each component to define destructive forces in case they explode, also implements proper CASE."
+    },
+    "CompressFloatieMessages" : {
+        "Enabled" : false,
+        "EnabledDescription" : "Compresses similar floatie messages to a single message with a multiplier. E.g. MEDIUM LASER DESTROYED x 4",
+        "DebugDestroyedFloaties" : true
+    },
+  "CriticalEffects" : {
+        "Enabled" : true,
+        "EnabledDescription" : "Allows custom multiple critical hit states for individual components.",
+        "DescriptionTemplate" : "Critical Effects:<b><color=#F79B26FF>\r\n{{elements}}</color></b>\r\n{{originalDescription}}",
+        "ElementTemplate" : " <indent=10%><line-indent=-5%><line-height=65%>{{element}}</line-height></line-indent></indent>\r\n",
+        "DescriptionUseName" : false,
+        "CritFloatieMessage" : "{0} CRIT",
+        "DestroyedFloatieMessage" : "{0} DESTROYED"
+    },
   "DebugCycleCombatSounds": {
     "Enabled": false
   },
@@ -159,7 +167,8 @@
           "ac2",
           "ac",
           "lbx",
-		  "PPC"
+	  "PPC",
+          "ams"
         ]
       },
       {
@@ -186,7 +195,22 @@
           "ac2",
           "ppc",
           "ac",
-          "lbx"
+          "lbx",
+          "ams"
+        ]
+      },
+      {
+        "PrefabIdentifier": "Laser",
+        "HardpointCandidates": [
+          "laser",
+          "flamer",
+          "mg",
+          "MachineGun",
+          "ac2",
+          "ppc",
+          "ac",
+          "lbx",
+          "ams"
         ]
       },
       {
@@ -196,7 +220,8 @@
           "uac5",
           "ac",
           "lbx",
-		  "PPC"
+		  "PPC",
+          "ams"
         ]
       },
       {
@@ -206,7 +231,8 @@
           "lbx10",
           "ac",
           "lbx",
-		  "PPC"
+		  "PPC",
+          "ams"
         ]
       },
 	  {
@@ -218,6 +244,7 @@
           "lbx",
 		  "ac10",
           "lbx10",
+          "ams"
         ]
       },
       {
@@ -226,7 +253,8 @@
           "ac20",
           "ac",
           "lbx",
-		  "PPC"
+		  "PPC",
+          "ams"
         ]
       },
 	  {
@@ -237,7 +265,8 @@
 		  "uac",
           "ac",
           "lbx",
-		  "PPC"
+		  "PPC",
+          "ams"
         ]
       },
       {
@@ -250,7 +279,8 @@
           "ac",
 		  "PPC",
           "lbx",
-          "laser"
+          "laser",
+          "ams"
         ]
       },
       {
@@ -261,7 +291,8 @@
           "ac",
 		  "PPC",
           "lbx",
-          "laser"
+          "laser",
+          "ams"
         ]
       },
       {
@@ -272,7 +303,8 @@
           "gauss",
           "ac",
           "lbx",
-		  "PPC"
+		  "PPC",
+          "ams"
         ]
       },
       {
@@ -285,7 +317,8 @@
           "srm20",
           "machinegun",
           "mg",
-          "flamer"
+          "flamer",
+          "ams"
         ]
       },
       {
@@ -298,7 +331,8 @@
           "lrm5",
           "machinegun",
           "mg",
-          "flamer"
+          "flamer",
+          "ams"
         ]
       },
       {
@@ -311,7 +345,8 @@
           "lrm5",
           "machinegun",
           "mg",
-          "flamer"
+          "flamer",
+          "ams"
         ]
       },
       {
@@ -325,7 +360,8 @@
           "lrm10",
           "machinegun",
           "mg",
-          "flamer"
+          "flamer",
+          "ams"
         ]
       },
       {
@@ -338,7 +374,8 @@
           "lrm5",
           "machinegun",
           "mg",
-          "flamer"
+          "flamer",
+          "ams"
         ]
       },
       {
@@ -347,7 +384,8 @@
           "machinegun",
           "mg",
           "flamer",
-		  "laser"
+		  "laser",
+          "ams"
         ]
       },
       {
@@ -358,7 +396,8 @@
           "srm6",
           "machinegun",
           "mg",
-          "flamer"
+          "flamer",
+          "ams"
         ]
       },
       {
@@ -369,7 +408,8 @@
           "srm2",
           "machinegun",
           "mg",
-          "flamer"
+          "flamer",
+          "ams"
         ]
       },
       {
@@ -380,7 +420,8 @@
           "srm2",
           "machinegun",
           "mg",
-          "flamer"
+          "flamer",
+          "ams"
         ]
       }
     ],

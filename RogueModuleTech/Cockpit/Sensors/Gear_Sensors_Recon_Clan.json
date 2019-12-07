@@ -13,7 +13,8 @@
 				"ThermalVisionHeat: 60",
 				"CockpitSensors: 1",
                 "Jammer: 1",
-				"JamBubble: 190"
+				"JamBubble: 190",
+				"Sharer"
             ]
         },
         "InventorySorter": {
@@ -46,8 +47,50 @@
     "AllowedLocations": "Head",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "statusEffects": [ 
-{
+	"Auras": [
+		{
+      "Id": "Gear_SenECM_ECM_JAMMER",
+      "Name": "JAMMER",
+      "ReticleColor": "#0066ff",
+      "Range": 190,
+	  "HideOnNotSelected": false,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": false,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "NegativeOne",
+      "IsPositiveToAlly": false,
+      "IsNegativeToEnemy": true,
+      "ownerVFX": [
+        "vfxPrfPrtl_ECMtargetAdd_burst",
+        "vfxPrfPrtl_ECM_loop",
+        "vfxPrfPrtl_ECMcarrierAura_loop"
+      ],
+      "targetVFX": [
+        "vfxPrfPrtl_ECMtargetAdd_burst"
+      ],
+      "removeOwnerVFX": [
+        "vfxPrfPrtl_ECMtargetRemove_burst"
+      ],
+      "removeTargetVFX": [
+        "vfxPrfPrtl_ECMtargetRemove_burst"
+      ],
+      "ownerSFX": [
+        "AudioEventList_ecm_ecm_enter",
+        "AudioEventList_ui_ui_ecm_start"
+      ],
+      "targetSFX": [
+        "AudioEventList_ecm_ecm_enter"
+      ],
+      "removeOwnerSFX": [
+        "AudioEventList_ecm_ecm_exit",
+        "AudioEventList_ui_ui_ecm_stop"
+      ],
+      "removeTargetSFX": [
+        "AudioEventList_ecm_ecm_exit"
+      ],
+      "statusEffects": [
+        {
             "durationData" : {
                 "duration": -1,
                 "stackLimit": 1,
@@ -55,9 +98,9 @@
             },
             "targetingData" : {
                 "effectTriggerType" : "Passive",
-                "specialRules" : "Aura",
+                "specialRules" : "NotSet",
                 "effectTargetType" : "EnemiesWithinRange",
-                "range" : 190.0,
+                "range" : 0.0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : true,
                 "showInTargetPreview" : false,
@@ -66,7 +109,7 @@
             "effectType" : "StatisticEffect",
             "Description" :
             {
-				"Id" : "EWS_ECM_JAM",
+				"Id" : "LV_ECM_JAM",
 				"Name" : "ECM Jammer",
 				"Details" : "Jamming ECM, reduces sensor checks for enemies in field",
 				"Icon" : "uixSvgIcon_action_sensorlock"
@@ -79,7 +122,11 @@
 				"modType": "System.Int32"
             },
             "nature" : "Debuff"
-        },
+        }		
+      ]
+    }
+  ],
+    "statusEffects": [ 
 	{
             "durationData" : {
                 "duration": -1,
@@ -98,14 +145,14 @@
             "effectType" : "StatisticEffect",
             "Description" :
             {
-                "Id" : "LV_Probe_Carrier",
+                "Id" : "LV_PROBE_CARRIER",
                 "Name" : "Active Probe (Passive)",
                 "Details" : "Reduces effectiveness of stealthed and ECM shielded units",
                 "Icon" : "uixSvgIcon_status_ECM-ghost"
             },
             "statisticData" : 
             {
-                "statName" : "LV_Probe_Carrier",
+                "statName" : "LV_PROBE_CARRIER",
                 "operation": "Int_Add",
                 "modValue": "1",
                 "modType": "System.Int32"
@@ -130,14 +177,14 @@
             "effectType" : "StatisticEffect",
             "Description" :
             {
-                "Id" : "LV_Advanced_Sensors",
+                "Id" : "LV_ADVANCED_SENSORS",
                 "Name" : "Advanced Sensors",
                 "Details" : "Provides detailed information on enemy units",
                 "Icon" : "uixSvgIcon_status_ECM-ghost"
             },
             "statisticData" : 
             {
-                "statName" : "LV_Advanced_Sensors",
+                "statName" : "LV_ADVANCED_SENSORS",
                 "operation": "Int_Add",
                 "modValue": "1",
                 "modType": "System.Int32"
@@ -258,7 +305,40 @@
                 "modValue": "0_-2_6",
                 "modType": "System.String"
             }
-        }],
+        },
+		{
+            "durationData" : {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0.0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : true,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" :
+            {
+                "Id" : "LV_Shares_Vision",
+                "Name" : "Vision Sharing",
+                "Details" : "Shows their vision when lancemattes move",
+                "Icon" : "uixSvgIcon_status_ECM-ghost"
+            },
+            "statisticData" : 
+            {
+                "statName" : "LV_SHARES_VISION",
+                "operation" : "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature" : "Buff"
+        }
+		],
     "ComponentTags": {
         "items": [
             "component_type_stock",

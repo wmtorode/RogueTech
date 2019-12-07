@@ -81,7 +81,9 @@
                   "SecuritySolutionsInc",
                   "PaladinProtectionLLC",
                   "HouseKhulan",
-                  "INVALID_UNSET"
+                  "BlackWidowCompany",
+                  "BaumannGroup",
+                  "BountyHunterAssociates"
             ],
             "tagSetSourceFile": ""
       },
@@ -249,6 +251,13 @@
                   "HardpointSlot": -1,
                   "DamageLevel": "Functional"
             },
+			{
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Tank_Coolant_System",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
             {
                   "MountedLocation": "Rear",
                   "ComponentDefID": "emod_engine_160",

@@ -1,7 +1,7 @@
 {
     "Custom": {
         "Category": [
-			{ "CategoryID": "w/a/o/mortair" }
+			{ "CategoryID": "w/a/o/mortar" }
 		],
         "InventorySorter": {
             "SortKey": "03011"
@@ -36,6 +36,9 @@
     "HeatDamage": 0,
     "AccuracyModifier": -1,
     "CriticalChanceMultiplier": 1,
+	"APArmorShardsMod": 0.5,
+  "APMaxArmorThickness": 40,
+  "APCriticalChanceMultiplier": 0.1,
     "AOECapable": false,
     "IndirectFireCapable": true,
     "RefireModifier": 0,
@@ -47,6 +50,7 @@
 	"AlternateDamageCalc": true,
 	"FireTerrainChance": 0.01,
 	"CantHitUnaffecedByPathing": true,
+	"SpreadRange": 30,
     "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
     "Description": {
         "Cost": 80000,

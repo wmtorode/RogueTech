@@ -2,20 +2,14 @@
   "Custom": {
     "ArmActuatorSupport": {
       "LeftLimit": "Upper"
+    },
+    "AssemblyVariant": {
+      "PrefabID": "Shootist",
+      "Exclude": true,
+      "Include": false
     }
   },
   "FixedEquipment": [
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_FCS_Buffered_VDNI",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    }
    ],
     "Description": {
         "Cost": 8382970, 

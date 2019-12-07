@@ -31,7 +31,7 @@
 	"MovementCapDefID": "movedef_atlas_AS7-D",
 	"PathingCapDefID": "pathingdef_heavy",
 	"HardpointDataDefID": "hardpointdatadef_marauder",
-	"PrefabIdentifier": "chrprfmech_marauderhotd-001",
+	"PrefabIdentifier": "chrPrfMech_marauderBase-001",
 	"PrefabBase": "marauder",
 	"Tonnage": 200,
 	"InitialTonnage": 39,
@@ -400,7 +400,7 @@
 	"VariantName": "LEV-RACZ-II",
 	"ChassisTags": {
 		"items": [
-			"mr-resize-1.75-1.82-1.76",
+			"mr-resize-1.60-1.67-1.61",
 			"Superheavy"
 		],
 		"tagSetSourceFile": ""

@@ -13,7 +13,8 @@
             "unit_bracket_low", 
             "unit_advanced", 
             "unit_littlefriend", 
-            "auriganpirates"
+            "auriganpirates",
+            "FlakJackals"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -121,7 +122,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

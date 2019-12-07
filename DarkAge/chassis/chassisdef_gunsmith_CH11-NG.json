@@ -13,9 +13,9 @@
   },
   "MovementCapDefID": "movedef_commando_COM-2D",
   "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_commando",
-  "PrefabIdentifier": "chrPrfMech_commandoBase-001",
-  "PrefabBase": "commando",
+  "HardpointDataDefID": "hardpointdatadef_mongoose",
+  "PrefabIdentifier": "chrprfmech_mongoosebase-001",
+  "PrefabBase": "mongoose",
   "Tonnage": 25,
   "InitialTonnage": 2.5,
   "weightClass": "LIGHT",
@@ -157,6 +157,20 @@
       "MaxArmor": 60,
       "MaxRearArmor": -1,
       "InternalStructure": 30
+    }
+  ],
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_250",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true
     }
   ],
   "LOSSourcePositions": [

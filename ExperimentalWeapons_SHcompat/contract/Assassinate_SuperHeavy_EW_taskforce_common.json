@@ -34,23 +34,31 @@
 					"val": "0"
 				}
 			]
+		},
+		{
+			"Scope": "Company",
+			"RequirementTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"ExclusionTags": {
+				"items": [],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": [
+				{
+					"obj": "MissionsComplete",
+					"op": "GreaterThan",
+					"val": 60,
+					"valueConstant": "60"
+				}
+			]
 		}
 	],
 	"OnContractSuccessResults": [
 		{
 			"Scope": "Company",
-			"Requirements": {
-				"Scope": "Company",
-				"RequirementTags": {
-					"items": [],
-					"tagSetSourceFile": ""
-				},
-				"ExclusionTags": {
-					"items": [],
-					"tagSetSourceFile": ""
-				},
-				"RequirementComparisons": []
-			},
+			"Requirements": {},
 			"AddedTags": {
 				"items": [
 					"taskforce_done"

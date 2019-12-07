@@ -12,7 +12,7 @@
       "ChassisID": "vehiclechassisdef_PARTIKILL_SUPERHEAVY_TANK",
       "VehicleTags": {
             "items": [
-                  "mr-resize-1.54",
+                  "mr-resize-2.0",
                   "unit_superheavytank",
                   "unit_noconvoy",
                   "unit_command",
@@ -149,6 +149,13 @@
                   "DamageLevel": "Functional"
             },
             {
+                  "ComponentDefID": "Gear_FCS_AdvancedTC",
+                  "ComponentDefType": "Upgrade",
+                  "MountedLocation": "Front",
+                  "HardpointSlot": -1,
+                  "DamageLevel": "Functional"
+            },
+            {
                   "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-XII",
                   "ComponentDefType": "Upgrade",
                   "MountedLocation": "Front",
@@ -229,6 +236,13 @@
                   "ComponentDefID": "emod_armorslots_impactresistant",
                   "ComponentDefType": "Upgrade",
                   "MountedLocation": "Turret",
+                  "HardpointSlot": -1,
+                  "DamageLevel": "Functional"
+            },
+            {
+                  "MountedLocation": "Rear",
+                  "ComponentDefID": "Tank_Coolant_System",
+                  "ComponentDefType": "HeatSink",
                   "HardpointSlot": -1,
                   "DamageLevel": "Functional"
             },

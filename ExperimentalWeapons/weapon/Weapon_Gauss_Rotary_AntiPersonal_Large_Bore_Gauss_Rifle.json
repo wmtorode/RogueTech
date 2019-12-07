@@ -42,6 +42,9 @@
 	"HeatDamage": 0,
 	"AccuracyModifier": -1,
 	"CriticalChanceMultiplier": 2,
+	"APArmorShardsMod": 0,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.5,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
 	"RefireModifier": 6,
@@ -97,6 +100,8 @@
 			"UIName": "x3",
 			"isBaseMode": true,
 			"FlatJammingChance": 0.1,
+			"GunneryJammingMult": 0.015,
+			"GunneryJammingBase": 5,
 			"AIHitChanceCap": 0.2
 		},
 		{
@@ -106,6 +111,8 @@
 			"ShotsWhenFired": 1,
 			"RefireModifier": 2,
 			"FlatJammingChance": 0.2,
+			"GunneryJammingMult": 0.03,
+			"GunneryJammingBase": 5,
 			"EvasivePipsIgnored": 1,
 			"HeatGenerated": 10,
 			"AIHitChanceCap": 0.25

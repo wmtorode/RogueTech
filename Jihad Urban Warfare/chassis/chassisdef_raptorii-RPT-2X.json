@@ -3,73 +3,15 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
+    },
+	"AssemblyVariant": {
+      "PrefabID": "RaptorII",
+      "Exclude": false,
+      "Include": true
     }
   },
   "FixedEquipment": [
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_structureslots_endosteel",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_280",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Gyro_Omnimech",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engineslots_xl_center",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "emod_engineslots_size3",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "emod_engineslots_size3",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    }
+
   ],
   "Description": {
     "Cost": 2123540,
@@ -135,19 +77,11 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": true
+          "Omni": false
         },
         {
           "WeaponMount": "Missile",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -160,22 +94,14 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": true
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
           "WeaponMount": "Energy",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": true
+          "Omni": false
         }
-      ],
+		],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 100,
@@ -186,20 +112,8 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": true
-        },
-        {
           "WeaponMount": "AntiPersonnel",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -212,20 +126,12 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": true
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
           "WeaponMount": "Energy",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -237,21 +143,13 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-       {
-          "WeaponMount": "Ballistic",
-          "Omni": true
-        },
         {
           "WeaponMount": "Energy",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": true
+          "Omni": false
         },
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -265,7 +163,7 @@
       "Hardpoints": [
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -279,7 +177,7 @@
       "Hardpoints": [
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -337,7 +235,6 @@
   "ChassisTags": {
     "items": [
       "PrototypeMech",
-      "OmniMech",
       "mr-resize-1.19-1.18-0.88"
     ],
     "tagSetSourceFile": ""

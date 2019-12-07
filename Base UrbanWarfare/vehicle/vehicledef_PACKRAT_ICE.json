@@ -21,7 +21,7 @@
          "NoBiome_lunarVacuum",
          "NoBiome_martianVacuum",
          "unit_generic",
-         "unit_apc",
+         "unit_vehicle_apc",
          "WordOfBlake",
          "betrayers",
          "comstar",
@@ -66,7 +66,10 @@
          "HostileMercenaries",
          "KellHounds",
          "SteelBeast",
-         "FlakJackals"
+         "FlakJackals",
+         "BlackWidowCompany",
+			"BaumannGroup",		
+			"BountyHunterAssociates"
       ],
       "tagSetSourceFile": ""
    },
@@ -94,6 +97,13 @@
       },
       {
          "Location": "Rear",
+         "CurrentArmor": 60,
+         "CurrentInternalStructure": 10,
+         "AssignedArmor": 60,
+         "DamageLevel": "Functional"
+      },
+      {
+         "Location": "Turret",
          "CurrentArmor": 60,
          "CurrentInternalStructure": 10,
          "AssignedArmor": 60,
@@ -129,6 +139,13 @@
          "HardpointSlot": -1,
          "DamageLevel": "Functional"
       },
+	  {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Tank_Coolant_System",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
       {
          "MountedLocation": "Rear",
          "ComponentDefID": "emod_engine_120",

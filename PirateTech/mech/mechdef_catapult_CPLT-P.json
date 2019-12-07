@@ -1,9 +1,10 @@
 {
     "MechTags": {
         "items": [
-            "unit_generic", 
+            "unit_advanced", 
             "unit_bracket_med", 
-            "unit_bracket_high", 
+            "unit_bracket_high",
+			"unit_indirectfire",			
             "unit_mech", 
             "unit_heavy", 
             "unit_release", 
@@ -153,18 +154,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_kit_dhs_proto", 
-            "SimGameUID": null, 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_EmergencyCoolant", 
+            "ComponentDefID": "Kit_pdhs_Pirate", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
@@ -230,7 +220,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_FCS_Missile", 
+            "ComponentDefID": "Gear_FCS_ArtemisII", 
             "SimGameUID": null, 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 

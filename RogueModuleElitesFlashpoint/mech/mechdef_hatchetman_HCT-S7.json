@@ -167,7 +167,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
@@ -347,7 +347,7 @@
             "DamageLevel": "Functional", 
             "GUID": null, 
             "HardpointSlot": -1, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "MountedLocation": "CenterTorso", 
             "SimGameUID": "", 
             "hasPrefabName": false, 

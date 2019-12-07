@@ -3,10 +3,9 @@
 	"Author": "Denadan",
 	"Website": "https://github.com/Denadan/CustomComponents",
 	"ConflictsWith": [
-		"RogueTech Enhanced",
-		"RogueTech Enhanced Clans"
 	],
 	"Enabled": true,
+	"Hidden": true,
 	"DependsOn": [],
 	"DLL": "CustomComponents.dll",
 	"DLLEntryPoint": "CustomComponents.Control.Init",
@@ -29,8 +28,8 @@
         }
 		],
 	"Settings": {
-		"LogLevel": "Error",
-		"DebugInfo" : "ComponentInstall",
+		"LogLevel": "Debug",
+		"DebugInfo" : "ComponentInstall, MechValidation",
 		"DontUseFilter": false,
 		"BaseECMValidation": false,
 		"AllowDropBlackListed": true,
@@ -53,7 +52,7 @@
 
 			{ "Tag" : "w/a/o/mg", "Color" : "#009393f0" },		
 			{ "Tag" : "w/a/o/artillery", "Color" : "#7b1d3cf0" },		
-			{ "Tag" : "w/a/o/mortair", "Color" : "#7b1d23f0" },		
+			{ "Tag" : "w/a/o/mortar", "Color" : "#7b1d23f0" },		
 			
 			{ "Tag" : "w/e/l/laser", "Color" : "#4c763ef0" },		
 			{ "Tag" : "w/e/l/pulse", "Color" : "#4c933ef0" },		
@@ -91,7 +90,7 @@
 			{ "Tag" : "w/m/l/atm", "Color" : "#351c75f0" },		
 			{ "Tag" : "w/m/l/iatm", "Color" : "#432395f0" },		
 			
-			{ "Tag" : "w/m/t/thunderbold", "Color" : "#8b1d2cf0" },		
+			{ "Tag" : "w/m/t/thunderbolt", "Color" : "#8b1d2cf0" },		
 			{ "Tag" : "w/m/t/arrowiv", "Color" : "#8b1d2cf0" },	
 
 			{ "Tag" : "w/s/a/ams", "Color" : "#ad5b05f0" },		
@@ -129,17 +128,17 @@
 		"DefaultFlagBackgroundColor": "UpgradeColor",
 		"InvalidFlagBackgroundColor": "Red",
 		"PreinstalledOverlayCColor": {
-			"R": 200,
-			"G": 90,
-			"B": 30,
-			"A": 55
-		},
-		"DefaultFlagOverlayCColor": {
-			"R": 180,
-			"G": 255,
-			"B": 180,
-			"A": 40
-		},
+            "R": 200,
+            "G": 90,
+            "B": 30,
+            "A": 30
+        },
+        "DefaultFlagOverlayCColor": {
+            "R": 180,
+            "G": 255,
+            "B": 180,
+            "A": 25
+        },
 		"TestEnableAllTags": false,
 		"OmniTechFlag": "OmniMech",
 		"OmniTechCostBySize": false,

@@ -1,7 +1,7 @@
 {
     "MechTags": {
         "items": [
-            "unit_generic", 
+            "unit_advanced", 
             "unit_jumpOK", 
             "unit_release", 
             "unit_mech", 
@@ -150,7 +150,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

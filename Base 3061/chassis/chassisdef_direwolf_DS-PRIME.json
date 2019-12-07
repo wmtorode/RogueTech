@@ -5,7 +5,6 @@
       "RightLimit": "Upper"
     }
   },
-  
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
@@ -71,18 +70,17 @@
       "prefabName": null,
       "hasPrefabName": false
     }
-  ],  
-  
+  ],
   "Description": {
     "Cost": 22406328,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "DireStar DS-Prime",
+    "UIName": "__/Base_3061.chassisdef_direwolf_DS-PRIME.UIName/__",
     "Id": "chassisdef_direwolf_DS-PRIME",
-    "Name": "DireStar",
-    "Details": "The Dire Wolf is one of the OmniMechs that became feared throughout the Inner Sphere during the initial Clan Invasion and rightly so. The Dire Wolf weighs in at an impressive one hundred tons and has a relatively slow cruising speed of 54 km/h provided by a 300 XL engine. Its speed and armor protection matches that of an Atlas, but it has superior potential firepower with fifty and a half tons of free pod space for weapons and equipment. It is these traits which saw the 'Mech christened Daishi (pseudo-Japanese for 'Great Death') by the criminal underbelly of the Draconis Combine, a name that would be proven grimly accurate time and time again.<b><color=#53ff1a>Restricted Actuators- Omni</color></b>",
+    "Name": "__/Base_3061.chassisdef_direwolf_DS-PRIME.Name/__",
+    "Details": "__/Base_3061.chassisdef_direwolf_DS-PRIME.Details/__",
     "Icon": "Direstar"
   },
   "MovementCapDefID": "movedef_direwhale",
@@ -158,7 +156,7 @@
           "WeaponMount": "AntiPersonnel",
           "Omni": true
         },
-		{
+        {
           "WeaponMount": "Missile",
           "Omni": true
         },
@@ -192,7 +190,7 @@
           "WeaponMount": "AntiPersonnel",
           "Omni": true
         },
-		{
+        {
           "WeaponMount": "Missile",
           "Omni": true
         },
@@ -252,7 +250,7 @@
           "WeaponMount": "AntiPersonnel",
           "Omni": true
         },
-		{
+        {
           "WeaponMount": "Missile",
           "Omni": true
         },
@@ -286,7 +284,7 @@
           "WeaponMount": "AntiPersonnel",
           "Omni": true
         },
-		{
+        {
           "WeaponMount": "Missile",
           "Omni": true
         },
@@ -303,9 +301,7 @@
     },
     {
       "Location": "LeftLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 240,
@@ -314,9 +310,7 @@
     },
     {
       "Location": "RightLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 240,
@@ -371,12 +365,12 @@
   "VariantName": "DS-PRIME",
   "ChassisTags": {
     "items": [
-		"OmniMech",
+      "OmniMech",
       "ClanMech",
       "mr-resize-1.0-1.1-1.1"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "OmniMech",
-  "YangsThoughts": "This Direwolf Commander is a piece of work by a nutcase clanner and I have seen many weird stuff. The madman or whoever designed this, must have been clearly out of his mind. Sacrificing everything for pure firepower this mech mounts 11 clan ERPPCs, that will instantly shut down your mech, if you try to alpha strike as well bringing lot of pain to the target. If the mech doesn't get destroyed while being shutdown it will definitely blow up by all the excess heat by firing all those PPCs.  <b><color=#53ff1a>Restricted Actuators- Omni</color></b>"
+  "StockRole": "__/Base_3061.chassisdef_direwolf_DS-PRIME.StockRole/__",
+  "YangsThoughts": "__/Base_3061.chassisdef_direwolf_DS-PRIME.YangsThoughts/__"
 }

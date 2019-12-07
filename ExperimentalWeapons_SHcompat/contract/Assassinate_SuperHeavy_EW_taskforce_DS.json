@@ -37,48 +37,37 @@
 		},
 		{
 			"Scope": "Company",
-			"Requirements": {
-				"Scope": "Company",
-				"RequirementTags": {
-					"items": [
-						"taskforce_done"
-					],
-					"tagSetSourceFile": ""
-				},
-				"ExclusionTags": {
-					"items": [
-						"taskforce_cooldown"
-					],
-					"tagSetSourceFile": ""
-				},
-				"RequirementComparisons": []
+			"RequirementTags": {
+				"items": [
+					"taskforce_done"
+				],
+				"tagSetSourceFile": ""
 			},
-			"AddedTags": {
+			"ExclusionTags": {
 				"items": [],
 				"tagSetSourceFile": ""
 			},
-			"RemovedTags": {
+			"RequirementComparisons": []
+		},
+		{
+			"Scope": "Company",
+			"RequirementTags": {
 				"items": [],
 				"tagSetSourceFile": ""
 			},
-			"Stats": []
+			"ExclusionTags": {
+				"items": [
+					"taskforce_cooldown"
+				],
+				"tagSetSourceFile": ""
+			},
+			"RequirementComparisons": []
 		}
 	],
 	"OnContractSuccessResults": [
 		{
 			"Scope": "Company",
-			"Requirements": {
-				"Scope": "Company",
-				"RequirementTags": {
-					"items": [],
-					"tagSetSourceFile": ""
-				},
-				"ExclusionTags": {
-					"items": [],
-					"tagSetSourceFile": ""
-				},
-				"RequirementComparisons": []
-			},
+			"Requirements": {},
 			"AddedTags": {
 				"items": [
 					"taskforce_cooldown"

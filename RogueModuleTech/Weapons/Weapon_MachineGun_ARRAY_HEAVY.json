@@ -17,16 +17,16 @@
     "Type": "MachineGun",
     "WeaponSubType": "MachineGun",
     "MinRange": 0,
-    "MaxRange": 220,
+    "MaxRange": 200,
     "RangeSplit": [
         80,
-        120,
-        160
+        110,
+        140
     ],
     "AmmoCategory": "HMG",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 24,
-    "Damage": 5,
+    "HeatGenerated": 27,
+    "Damage": 3,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
@@ -34,13 +34,16 @@
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1.5,
+	"APArmorShardsMod": 0,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.5,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
     "ShotsWhenFired": 12,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 0,
-    "Instability": 0.75,
+    "Instability": 0.3,
     "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
     "Description": {
         "Cost": 240000,
@@ -72,7 +75,7 @@
             "UIName": "x1",
             "isBaseMode": false,
             "ShotsWhenFired": -9,
-            "HeatGenerated": -6,
+            "HeatGenerated": -7,
             "AIHitChanceCap": 0.1
         },
         {
@@ -81,7 +84,7 @@
             "isBaseMode": false,
             "ShotsWhenFired": -6,
             "RefireModifier": 1,
-            "HeatGenerated": -4,
+            "HeatGenerated": -7,
             "AIHitChanceCap": 0.15
         },
         {
@@ -90,7 +93,7 @@
             "isBaseMode": false,
             "ShotsWhenFired": -3,
             "RefireModifier": 1,
-            "HeatGenerated": -2,
+            "HeatGenerated": -7,
             "AIHitChanceCap": 0.2
         },
         {
@@ -99,6 +102,8 @@
             "isBaseMode": true,
             "RefireModifier": 2,
             "FlatJammingChance": 0.1,
+            "GunneryJammingMult": 0.015,
+            "GunneryJammingBase": 5,
             "AIHitChanceCap": 0.25
         },
         {
@@ -108,7 +113,9 @@
             "ShotsWhenFired": 3,
             "RefireModifier": 2,
             "FlatJammingChance": 0.2,
-            "HeatGenerated": 2,
+            "GunneryJammingMult": 0.03,
+            "GunneryJammingBase": 5,
+            "HeatGenerated": 7,
             "AIHitChanceCap": 0.3
         },
         {
@@ -117,9 +124,10 @@
             "isBaseMode": false,
             "ShotsWhenFired": 6,
             "RefireModifier": 3,
-            "AccuracyModifier": 1.0,
             "FlatJammingChance": 0.3,
-            "HeatGenerated": 4,
+            "GunneryJammingMult": 0.045,
+            "GunneryJammingBase": 5,
+            "HeatGenerated": 14,
             "AIHitChanceCap": 0.4
         }
     ],

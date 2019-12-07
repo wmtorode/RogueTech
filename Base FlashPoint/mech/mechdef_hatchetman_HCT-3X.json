@@ -14,8 +14,8 @@
             "unit_armor_high", 
             "unit_melee", 
             "unit_release", 
-            "unit_totem", 
-            "kurita"
+            "steiner",
+            "davion"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -152,7 +152,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

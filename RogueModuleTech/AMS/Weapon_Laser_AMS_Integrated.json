@@ -38,6 +38,21 @@
             "SortKey": "00025"
         }
     },
+	"Auras": [
+    {
+      "Id": "AMS",
+      "Name": "AMS",
+      "ReticleColor": "#800000",
+      "Range": 10,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": false,
+      "HideOnNotSelected": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": true
+    }
+  ],
     "Category": "AntiPersonnel",
     "Type": "Laser",
     "WeaponSubType": "SmallLaser",
@@ -59,6 +74,9 @@
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
+	"APArmorShardsMod": 0,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.5,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
@@ -78,7 +96,7 @@
         "Model": "Light Shield-1",
         "UIName": "Integrated Laser AMS",
         "Id": "Weapon_Laser_AMS_Integrated",
-        "Name": "Laser Anti Missile System",
+        "Name": "Int. LAMS",
         "Details": "This Armor carries an Integrated Laser Anti Missile, pocketing the mech with many smaller Laser system to grant a improved interception  \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
@@ -108,6 +126,8 @@
             "ShotsWhenFired": 20,
             "AMSHitChance": 0.4,
             "FlatJammingChance": 0.4,
+            "GunneryJammingMult": 0.06,
+            "GunneryJammingBase": 5,
             "HeatGenerated": 16,
             "MaxRange": 90.0,
             "IsAAMS": true

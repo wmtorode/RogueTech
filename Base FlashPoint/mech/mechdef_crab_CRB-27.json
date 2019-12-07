@@ -12,6 +12,7 @@
             "comstar", 
             "WordOfBlake", 
             "kurita", 
+            "HouseNakano",
             "rasalhague", 
             "clansgeneric", 
             "clanwolf", 
@@ -166,7 +167,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

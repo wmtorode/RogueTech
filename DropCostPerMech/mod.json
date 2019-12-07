@@ -1,14 +1,13 @@
 {
     "Name": "DropCostPerMech",
     "Enabled": true,
-    "Version": "v1.2.1",
+	"Hidden": true,
+    "Version": "v1.3",
     "Description": "Calculates and subtracts drop costs per mech selected for a mission.",
     "Author": "Morphyum",
     "Website": "https://github.com/Morphyum/DropCostPerMech",
     "Contact": "",
     "ConflictsWith": [
-        "RogueTech Enhanced",
-        "RogueTech Enhanced Clans"
     ],
     "DLL": "DropCostPerMech.dll"
 }

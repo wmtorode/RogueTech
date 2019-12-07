@@ -11,9 +11,9 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Angrboda MC-MKII",
+    "UIName": "Mad Cat",
     "Id": "chassisdef_Angrboda",
-    "Name": "Angrboda MC-MKII",
+    "Name": "Mad Cat MC-MKII",
     "Details": "Developed by Clan Hells Horses as an insult to Clan Diamond Shark is this variant of the Mad Cat MKII designed to carry a pair of their newly developed experimental RAC5, bringing Sorrow upon any who dare stand in its Way. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "DakaCatMK2"
   },
@@ -55,9 +55,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -196,9 +194,7 @@
     },
     {
       "Location": "LeftLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 190,
@@ -207,9 +203,7 @@
     },
     {
       "Location": "RightLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 190,
@@ -265,7 +259,8 @@
   "ChassisTags": {
     "items": [
       "ClanMech",
-      "EliteMech"
+      "EliteMech",
+      "mr-resize-1.03"
     ],
     "tagSetSourceFile": ""
   },

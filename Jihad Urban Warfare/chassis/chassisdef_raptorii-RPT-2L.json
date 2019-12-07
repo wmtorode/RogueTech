@@ -3,6 +3,11 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
+    },
+	"AssemblyVariant": {
+      "PrefabID": "RaptorII",
+      "Exclude": false,
+      "Include": true
     }
   },
   "Description": {
@@ -86,11 +91,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
@@ -107,14 +108,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -134,10 +127,6 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -151,10 +140,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "Energy",
           "Omni": false

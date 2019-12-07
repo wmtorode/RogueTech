@@ -162,7 +162,7 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_FCS_Energy", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "DamageLevel": "Functional", 
@@ -238,7 +238,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling", 
+            "ComponentDefID": "Gear_Engine_Heatsinks", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

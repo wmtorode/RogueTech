@@ -12,12 +12,13 @@
             "Bonuses": [
 				"Activatable",
                 "ActiveAccuracy: +2",
-				"ActiveLaserEvasionIgnore: 2"
+				"ActiveLaserEvasionIgnore: 2",
                 "ActiveLASERHEAT: +20%",
                 "ActiveHeatPerTurn: +9",
                 "FailChance: 10%",
                 "FailChanceTurn: 15%",
                 "FailCritSelf",
+				"FailReducPilot",
                 "WeaponBoom: 50"
             ]
         },

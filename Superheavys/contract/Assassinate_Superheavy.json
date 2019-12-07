@@ -42,6 +42,25 @@
                 "tagSetSourceFile": ""
             },
             "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": [
+                {
+                    "obj": "MissionsComplete",
+                    "op": "GreaterThan",
+                    "val": 50,
+                    "valueConstant": "50"
+                }
+            ]
+        },
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
                 "items": [
                     "smooth_stones_done"
                 ],
@@ -53,18 +72,7 @@
     "OnContractSuccessResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [
                     "smooth_stones_done"

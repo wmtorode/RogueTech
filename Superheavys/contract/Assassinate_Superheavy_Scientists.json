@@ -46,6 +46,25 @@
                 "tagSetSourceFile": ""
             },
             "ExclusionTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RequirementComparisons": [
+                {
+                    "obj": "MissionsComplete",
+                    "op": "GreaterThan",
+                    "val": 50,
+                    "valueConstant": "50"
+                }
+            ]
+        },
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "ExclusionTags": {
                 "items": [
                     "assassinate_superheavy_scientists_done"
                 ],
@@ -57,18 +76,7 @@
     "OnContractSuccessResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [
                     "assassinate_superheavy_scientists_done"

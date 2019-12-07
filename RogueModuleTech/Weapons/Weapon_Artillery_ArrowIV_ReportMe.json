@@ -40,6 +40,9 @@
     "HeatDamage": 10,
     "AccuracyModifier": -5,
     "CriticalChanceMultiplier": 10,
+	"APArmorShardsMod": 0,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.5,
     "AOECapable": true,
 	"AOERange": 1000,
 	"AOEDamage": 10,
@@ -194,7 +197,8 @@
             "component_type_stock",
             "mr-resize-18",
 			"lv-scrambler_m-10",
-            "range_extreme"
+            "range_extreme",
+			"BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     }

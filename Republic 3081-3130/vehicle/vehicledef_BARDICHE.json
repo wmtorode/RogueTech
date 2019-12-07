@@ -15,14 +15,17 @@
 			"mr-resize-1.50",
 			"unit_vehicle",
 			"unit_heavy",
-			"unit_wheeled",
+			"unit_wheels",
 			"unit_release",
 			"unit_lance_support",
 			"unit_lance_assassin",
 			"unit_advanced",
 			"unit_bracket_med",
 			"unit_predator",
-			"marik"
+			"marik",
+			"DuchyOfAndurien",
+			"BlackCalderaDefense",
+			"BlackCalderaDefense_Hidden"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -143,7 +146,21 @@
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F2400",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_LongRange",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_FCS_AdvancedTC",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_ExtremeRange",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
@@ -168,7 +185,7 @@
 			"MountedLocation": "Rear",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
-	  },
+		},
 		{
 			"ComponentDefID": "Ammo_AmmunitionBox_Deadfire_SRM_half",
 			"ComponentDefType": "AmmunitionBox",
@@ -227,6 +244,13 @@
 		},
 		{
 			"MountedLocation": "Rear",
+			"ComponentDefID": "Tank_Coolant_System",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Rear",
 			"ComponentDefID": "emod_engineslots_xl_center",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -247,32 +271,32 @@
 			"DamageLevel": "Functional"
 		},
 		{
-            "ComponentDefID": "Tank_Turret",
-            "ComponentDefType": "Upgrade",
-            "MountedLocation": "Turret",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Tank_CrewCompartment",
-            "ComponentDefType": "Upgrade",
-            "MountedLocation": "Front",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Gear_Wheeled_Right",
-            "ComponentDefType": "Upgrade",
-            "MountedLocation": "Right",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Gear_Wheeled_Left",
-            "ComponentDefType": "Upgrade",
-            "MountedLocation": "Left",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        }
+			"ComponentDefID": "Tank_Turret",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Turret",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Tank_CrewCompartment",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Front",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Wheeled_Right",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Wheeled_Left",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": 1,
+			"DamageLevel": "Functional"
+		}
 	]
 }

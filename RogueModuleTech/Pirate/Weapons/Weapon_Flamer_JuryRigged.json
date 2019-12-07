@@ -8,15 +8,22 @@
                 "WpnRecoil: 1",
                 "WpnAccuracy: -1",
                 "VariableDmg: 15",
-                "PipsIgnored: 2",
-                "OHDamage: 50%",
+                "PipsIgnored: 1",
+                "OHDamage: 25%",
+				"DmgFallOff: 10%",
 				"NoAA",
 				"AlwaysStartsFire"
             ]
         },
         "InventorySorter": {
             "SortKey": "02001"
-        }
+        },
+		"Flags": {
+      "flags": [
+        "not_broken",
+		"not_destroyed"
+      ]
+    }
     },
     "Category": "Energy",
     "Type": "Flamer",
@@ -31,14 +38,22 @@
     "AmmoCategory": "NotSet",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 10,
-    "Damage": 15,
-    "OverheatedDamageMultiplier": 1.5,
+    "Damage": 12,
+    "OverheatedDamageMultiplier": 1.25,
     "EvasiveDamageMultiplier": 0,
-    "EvasivePipsIgnored": 2,
+    "EvasivePipsIgnored": 1,
     "DamageVariance": 10,
-    "HeatDamage": 8,
+    "HeatDamage": 16,
     "AccuracyModifier": 1,
-    "CriticalChanceMultiplier": 1,
+	"DistantVariance": 0.1,
+  "DistantVarianceReversed": false,
+  "isHeatVariation": true,
+  "isStabilityVariation": true,
+  "isDamageVariation": true,
+    "CriticalChanceMultiplier": 0.1,
+	"APArmorShardsMod": 0.1,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.01,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 1,
@@ -59,7 +74,7 @@
         "UIName": "Flamer (PRT)",
         "Id": "Weapon_Flamer_JuryRigged",
         "Name": "Pirate Flamer",
-        "Details": "The barrel of this flamer has been crimped at the end, probably in some moronic attempt to make it shoot farther.  You’ll be lucky if it doesn't just blow up in your face.",
+        "Details": "The barrel of this flamer has been crimped at the end, probably in some moronic attempt to make it shoot farther.  Youâll be lucky if it doesn't just blow up in your face.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA": "Unknown",

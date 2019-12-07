@@ -1,0 +1,227 @@
+{
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Fireball",
+      "Exclude": false,
+      "Include": true
+    }
+  },
+  "Description": {
+    "Cost": 1278360,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "__/Base_3061.chassisdef_fireball_ALM-8D.UIName/__",
+    "Id": "chassisdef_fireball_ALM-8D",
+    "Name": "__/Base_3061.chassisdef_fireball_ALM-8D.Name/__",
+    "Details": "__/Base_3061.chassisdef_fireball_ALM-8D.Details/__",
+    "Icon": "Fireball"
+  },
+  "VariantName": "ALM-8D",
+  "StockRole": "__/Base_3061.chassisdef_fireball_ALM-8D.StockRole/__",
+  "YangsThoughts": "__/Base_3061.chassisdef_fireball_ALM-8D.YangsThoughts/__",
+  "PrefabIdentifier": "chrprfmech_ostwarhotd-001",
+  "PrefabBase": "ostwar",
+  "Tonnage": 20,
+  "InitialTonnage": 2,
+  "weightClass": "LIGHT",
+  "BattleValue": 0,
+  "Heatsinks": 0,
+  "TopSpeed": 184,
+  "TurnRadius": 90,
+  "MaxJumpjets": 20,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "EngageRangeModifier": 0,
+  "MeleeDamage": 10,
+  "MeleeInstability": 5,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 20,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 20,
+  "DFAInstability": 10,
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.55"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "MechPartMax": 0,
+  "MovementCapDefID": "movedef_ostwar-2MB",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_ostwar",
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 12,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "MechPartCount": 0,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 30,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 30,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    }
+  ],
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_220",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": "",
+      "hasPrefabName": true
+    }
+  ]
+}

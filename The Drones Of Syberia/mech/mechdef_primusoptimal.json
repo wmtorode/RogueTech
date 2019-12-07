@@ -9,7 +9,8 @@
             "BLACKLISTED", 
             "unit_bracket_high", 
             "unit_advanced", 
-            "unit_command"
+            "unit_command",
+			"NOSALVAGE"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -120,7 +121,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -131,7 +132,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -142,7 +143,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -153,7 +154,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -164,7 +165,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -175,7 +176,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -186,7 +187,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -197,7 +198,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -208,7 +209,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -219,7 +220,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -230,7 +231,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -241,7 +242,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": 0, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -252,7 +253,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -263,7 +264,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -274,7 +275,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
@@ -305,7 +306,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "hasPrefabName": false
         }, 
@@ -315,7 +316,7 @@
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
-            "IsFixed": true, 
+            "IsFixed": false, 
             "DamageLevel": "Functional", 
             "hasPrefabName": false
         }, 
@@ -361,7 +362,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_cooling_3", 
+            "ComponentDefID": "Gear_Engine_Heatsinks_3", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

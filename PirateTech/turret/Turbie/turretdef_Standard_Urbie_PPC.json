@@ -1,7 +1,7 @@
 {
    "Version": 1,
    "Description": {
-      "Id": "turretdef_Standard_Urbie_PRAC5",
+      "Id": "turretdef_Standard_Urbie_PPC",
       "Name": "UrbanMech UM-MM",
       "Details": "",
       "Icon": "",
@@ -9,15 +9,12 @@
       "Rarity": 0,
       "Purchasable": false
    },
-   "ChassisID": "turretchassisdef_Standard_Urbie_PRAC5",
+   "ChassisID": "turretchassisdef_Standard_Urbie_PPC",
    "TurretTags": {
       "items": [
          "unit_turret",
          "unit_light",
          "locals",
-         "magistracyofcanopus",
-         "taurianconcordat",
-         "outworld",
          "jarnfolk",
          "delphi",
          "hanse",
@@ -33,8 +30,8 @@
          "circinus",
          "illyrian",
          "lothian",
-         "aurigandirectorate",
-         "auriganrestoration",
+         "FlakJackals",
+         "LocalsBrockwayRefugees",
          "mr-resize-0.75"
       ],
       "tagSetSourceFile": ""
@@ -134,7 +131,7 @@
          "HardpointSlot": 2,
          "DamageLevel": "Functional"
       },
-	  {
+      {
          "ComponentDefID": "Turret_Coolant_System",
          "ComponentDefType": "HeatSink",
          "HardpointSlot": 2,

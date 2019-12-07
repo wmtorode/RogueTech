@@ -21,6 +21,21 @@
             "SortKey": "00025"
         }
     },
+	"Auras": [
+    {
+      "Id": "AMS",
+      "Name": "AMS",
+      "ReticleColor": "#cc9900",
+      "Range": 10,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": false,
+      "HideOnNotSelected": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": false
+    }
+  ],
     "Category": "AntiPersonnel",
     "Type": "MachineGun",
     "WeaponSubType": "MachineGun",
@@ -42,6 +57,9 @@
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
+	"APArmorShardsMod": 0,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.5,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
@@ -59,7 +77,7 @@
         "Model": "Star Screen",
         "UIName": "AMS (C)",
         "Id": "Weapon_AMS_CLAN",
-        "Name": "Anti-Missile System",
+        "Name": "Clan AMS",
         "Details": "The Anti-Missile System is used to destroy missiles before they strike their target. This is accomplished by using a short ranged rapid firing weapon which shoots at the missiles. \n\n<b><color=#ffcc00>Uses AMS Ammo.</color></b> \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
         "Icon": "uixSvgIcon_equipment_TTS"
     },
@@ -93,6 +111,8 @@
             "ShotsWhenFired": 30,
             "AMSHitChance": 0.35,
             "FlatJammingChance": 0.3,
+            "GunneryJammingMult": 0.045,
+            "GunneryJammingBase": 5,
             "HeatGenerated": 4,
             "AMSShootsEveryAttack": true
         },
@@ -110,7 +130,9 @@
             "DamagePerShot": 1.0,
             "HeatGenerated": 12,
             "ShotsWhenFired": 10,
-            "FlatJammingChance": 0.1
+            "FlatJammingChance": 0.1,
+            "GunneryJammingMult": 0.015,
+            "GunneryJammingBase": 5
         }
     ],
     "statusEffects": [],

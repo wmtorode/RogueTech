@@ -14,8 +14,8 @@
             "Scope": "Company",
             "RequirementTags": {
                 "items": [
-				"Beaten_Riposte"
-				],
+                    "Beaten_Riposte"
+                ],
                 "tagSetSourceFile": ""
             },
             "ExclusionTags": {
@@ -26,46 +26,30 @@
             },
             "RequirementComparisons": []
         },
-		{
+        {
             "Scope": "Company",
-            "Requirements": null,
-            "AddedTags": {
+            "RequirementTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "RemovedTags": {
+            "ExclusionTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
-            "Stats": [
+            "RequirementComparisons": [
                 {
-                    "obj": "Day",
+                    "obj": "MissionsComplete",
                     "op": "GreaterThan",
-                    "val": 250,
-                    "valueConstant": "250"
+                    "val": 35,
+                    "valueConstant": "35"
                 }
-            ],
-            "Actions": [],
-            "ForceEvents": [],
-            "TemporaryResult": false,
-            "ResultDuration": 0
+            ]
         }
     ],
     "OnContractSuccessResults": [
         {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [
                     "Beaten_RiposteHard"
@@ -83,29 +67,18 @@
             "ResultDuration": 160
         }
     ],
-	"OnContractFailureResults": [
-	{
+    "OnContractFailureResults": [
+        {
             "Scope": "Company",
-            "Requirements": {
-                "Scope": "Company",
-                "RequirementTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "ExclusionTags": {
-                    "items": [],
-                    "tagSetSourceFile": ""
-                },
-                "RequirementComparisons": []
-            },
+            "Requirements": {},
             "AddedTags": {
                 "items": [],
                 "tagSetSourceFile": ""
             },
             "RemovedTags": {
                 "items": [
-				 "Beaten_Riposte"
-				],
+                    "Beaten_Riposte"
+                ],
                 "tagSetSourceFile": ""
             },
             "Stats": [],
@@ -114,7 +87,7 @@
             "TemporaryResult": null,
             "ResultDuration": null
         }
-	],
+    ],
     "contractType": "SimpleBattle",
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,
@@ -143,7 +116,7 @@
             "title": "Destroy Enemy Units",
             "description": "",
             "isPrimary": true,
-           "OnSuccessResults": [
+            "OnSuccessResults": [
                 {
                     "Scope": "Company",
                     "Requirements": {
